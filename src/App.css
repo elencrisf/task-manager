@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.navbar {
+  background: url("./assets/boatImage.jpg") no-repeat;
+}
+
+.date {
+  font-size: 45px;
+  color: white;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.App-header {
+  width: 40%;
+  padding: 10px;
+  background-color: #f7c0c0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Todo-input {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: white;
+  margin: 10px;
+  outline: none;
+}
+
+button {
+  font-size: 18px;
+  width: 100px;
+  border-radius: 2px;
+}
+/* .Todo-button {
+  background: white;
+  font-size: 18px;
+  height: 42px;
+  width: 100px;
+  border: solid 1px;
+  border-radius: 4px;
+} */
+
+.Item-container {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  background: white;
+}
+
+.Item-field {
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.Array-preview {
+  width: 60%;
+  min-height: 100vh;
+  padding: 20px;
+  /* display: flex; */
+  background-color: white;
+  color: black;
+  text-align: start;
+  font-family: Arial, Helvetica, sans-serif;
+}
